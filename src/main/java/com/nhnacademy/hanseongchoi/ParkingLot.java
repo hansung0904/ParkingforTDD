@@ -22,4 +22,10 @@ public class ParkingLot {
     public ParkingSpace getParkingSpace() {
         return spaceList.get(0);
     }
+
+    public Car outCar(String parkingCode, Car car) {
+        ParkingSpace parkingSpace = new ParkingSpace(parkingCode, car);
+        spaceList.remove(parkingSpace);
+        return car;
+    }
 }
