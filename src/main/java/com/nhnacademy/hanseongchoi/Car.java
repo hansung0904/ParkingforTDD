@@ -1,7 +1,7 @@
 package com.nhnacademy.hanseongchoi;
 
 public class Car {
-    private  String carNumber;
+    private String carNumber;
 
 
     public Car(String carNumber) {
